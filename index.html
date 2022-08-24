@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon (imagem da aba do navegador)-->
+    <link rel="icon" href="./image/favicon-16x16.png">
+    <title>Vitor Pereira | Portfólio</title>
+    <!--importando bootstrap-->
+    <link rel="stylesheet" href="style.css">
+    <link href=".bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--reCAPTCHA / Proteção ant-flood-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<!--Barra de navegação-->
+<body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#skills">Especialidade</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--Sessão Home Início-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Ola, meu nome é</div>
+                <div class="text-2">Vitor Pereira</div>
+                <div class="text-3">eu sou <span class="typing"></span></div>
+            <div class="icons">
+                <div class="github"><a href="https://github.com/Vtzao" target="_blank"><img src="icons/github.svg" alt="Github" width="25" height="25" ></a></div>
+                <div class="linkedin"><a href="https://www.linkedin.com/in/vitor-pereira-co/" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn" width="25" height="25" ></a></div>
+                <div class="instagram"><a href="https://instagram.com/pereira_vt/" target="_blank"><img src="icons/instagram.svg" alt="Instagram" width="25" height="25" ></a></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sessão Sobre Mim-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="image/img-1.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou o Vitor e sou <span class="typing-2"></span></div>
+                    <p>Desde muito novo sou amante de novas tecnologias, jogos e mídia digital, adquiri uma vasta experiência em Design Gráfico e então descobri que minha paixão é a programação, foi quando iniciei uma graduação em Análise e Desenvolvimento de Sistemas.</p>
+                    <a href="https://www.linkedin.com/in/vitor-pereira-co/" target="_blank"><img src="icons/linkedin.svg"> <b>LinkedIn</b></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão serviços-->
+     <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Serviços</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                        <img src="icons/easel.svg">
+                    <div class="text">Web Design</div>
+                    <p>Posso criar todo o design de seu website como por exemplo layouts, banners, propagandas e toda identidade visual.</p>
+                   </div>
+               </div>
+
+               <div class="card">
+                <div class="box">
+                    <img src="icons/robot.svg">
+                 <div class="text">Discord Bot</div>
+                 <p>Tenho diversos projetos de desenvolver Bots para servidores de Discord, em breve estarei postando aqui e em meu LinkedIn.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <img src="icons/terminal-fill.svg">
+                 <div class="text">Developer</div>
+                 <p>Desenvolvimento FullStack. Cada vez mais estou aprimorando minhas habilidades em HTML, CSS, JavaScript e Python</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão especialidade-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas habilidades criativas e experiências.</div>
+                    <p>Em um gráfico consigo demonstrar o nível de minhas habilidades tanto da área da programação, quanto na área de design gráfico.</p>
+                    <a href="#">Mais informações</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>HTML</span>
+                           <span>65%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>37%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Adobe Illustrator / Photoshop</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--página projetos-->
+     <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Meus Projetos</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                       <a href="" target="_blank"><img src="icons/robot2.svg" alt="Pokédex"></a>
+                       <div class="text">Discord Bot</div>
+                       <p></p>
+                       <p>Em desenvolvimento... ( Python )</p>
+                       <P>:D</P>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <a href="https://vtzao.github.io/Pokedex/" target="_blank"><img src="image/pokedex-print.png" alt="Pokédex"></a>
+                       <div class="text">Pokédex</div>
+                       <p>Projeto bem divertido simulando uma Pokédex desenvolvido com HTML, CSS e JavaScript puxando uma API do Pokémon.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://github.com/Vtzao/" target="_blank"><img src="image/github.png" alt="Github"></a>
+                    <div class="text">GitHub Projects</div>
+                    <p>Confira aqui alguns projetos no meu perfil do GitHub</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!--página contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text"></div>
+                   <p></p>
+               
+               <div class="icons">
+                   <div class="row">
+                    <img src="icons/person.svg">
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Ricardo Ferreira</div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <img src="icons/geo-alt.svg">
+                    <div class="info">
+                        <div class="head">Endereço</div>
+                        <div class="sub-title">Curitiba, PR</div>
+                    </div>
+               </div>
+               <div class="row">
+                <img src="icons/envelope.svg">
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">contato.vtpereira@gmail.com</div>
+                </div>
+           </div>
+               </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <form action="mailto:contato.vtpereira@gmail.com" method="post" enctype="text/plain">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Nome" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="field">
+                            <input type="text" placeholder="Sobrenome" required>
+                        </div>
+                        <div class="field textarea">
+                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <!--Em Breve um checkbox reCAPTCHA Funcional-->
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão  rodapé-->
+    <footer>
+        <span>Criado por <a href="#">Vtzao</a> | 2022</span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+</body>
+</html>
