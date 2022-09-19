@@ -9,6 +9,9 @@
 html{
     scroll-behavior: smooth;
 }
+body {
+    overflow-x: hidden;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -649,6 +652,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px){
+    body{
+    overflow-x: hidden;
+    }
     .home .home-content .text-2{
         font-size: 35px;
     }
