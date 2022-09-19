@@ -76,6 +76,7 @@ class MobileNavbar {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+    
     $('.carousel').owlCarousel({
         margin:20,
         loop:true,
@@ -95,5 +96,5 @@ class MobileNavbar {
                 nav:false
             }
         }
-        
-    });})
+    });
+});
