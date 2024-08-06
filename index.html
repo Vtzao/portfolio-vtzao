@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--favicon (imagem da aba do navegador)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="icon" href="./image/favicon-16x16.png">
-    <title>Vitor Pereira | Portfólio</title>
-    <!--importando bootstrap-->
+    <title>PortFólio | Vitor Pereira</title>
+    <link rel= stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <link href=".bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!--reCAPTCHA / Proteção ant-flood-->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
-<!--Barra de navegação-->
 <body>
-    <div class="scroll-up-btn">
-        <ion-icon name="chevron-up-outline"></ion-icon>
-    </div>
-    <div class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
-            <ul class="menu">
-                <li><a href="#home">Inicio</a></li>
+    <header>
+        <nav>
+            <a class="logo"><img src="image/sdasdfg.png"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#skills">Especialidade</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
-            <div class="menu-btn">
-                <ion-icon name="menu-outline"></ion-icon>
-            </div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <!--Sessão Home Início-->
+    <!-- Begin page content -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
@@ -158,19 +153,26 @@
            <div class="carousel owl-carousel ">
                <div class="card">
                    <div class="box">
-                       <a href="" target="_blank"><img src="icons/robot2.svg" alt="Pokédex"></a>
+                       <img src="icons/robot2.svg" alt="Robot">
                        <div class="text">Discord Bot</div>
-                       <p></p>
-                       <p>Em desenvolvimento... ( Python )</p>
-                       <P>:D</P>
+                       <p>Em Desenvolvimento... ( Python )</p>
                    </div>
                </div>
                <div class="card">
                 <div class="box">
-                    <a href="https://vtzao.github.io/Pokedex/" target="_blank"><img src="image/pokedex-print.png" alt="Pokédex"></a>
-                       <div class="text">Pokédex</div>
-                       <p>Projeto bem divertido simulando uma Pokédex desenvolvido com HTML, CSS e JavaScript puxando uma API do Pokémon.</p>
+                    <a href="https://vtzao.github.io/Pokedex/" target="_blank"><img src="image/pokedex-print.png" alt="Pokedex"></a>
+                    <div class="text">Pokedex</div>
+                    <p>Projeto bem divertido simulando uma Pokédex desenvolvido com HTML, CSS e JavaScript puxando uma API do Pokémon.</p>
                 </div>
+            </div>
+            <div class="card">
+                <div class="card">
+                    <div class="box">
+                    <a href="https://vtzao.github.io/LoginPage-Habbo/" target="_blank"><img src="image/print-habbo-login.png" alt="Login Page Habbo"></a>
+                    <div class="text">LoginPage Habbo Hotel</div>
+                    <p>Versão de uma tela de login do game Habbo Hotel criada por mim.</p>
+                </div>
+            </div>
             </div>
             <div class="card">
                 <div class="box">
@@ -218,7 +220,7 @@
             </div><!--column left-->
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="mailto:contato.vtpereira@gmail.com" method="post" enctype="text/plain">
+                <form action="mailto:contato.vtpereira@gmail.com" method="POST" enctype="text/plain">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Nome" required>
